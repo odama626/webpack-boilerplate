@@ -1,0 +1,37 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:front": "webpack --config webpack.config.dev.js -w",
+    "dev:back": "NODE_ENV=dev node app.js",
+    "release": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^15.0.24",
+    "@types/react-dom": "^15.5.0",
+    "autoprefixer": "^7.1.1",
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.5",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "sass-loader": "^6.0.5",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.1"
+  }
+}
